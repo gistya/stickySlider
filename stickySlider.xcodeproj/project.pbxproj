@@ -13,6 +13,8 @@
 		EE88360C1F1FE425001F5C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE88360B1F1FE425001F5C38 /* Assets.xcassets */; };
 		EE88360F1F1FE425001F5C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE88360D1F1FE425001F5C38 /* LaunchScreen.storyboard */; };
 		EE8836171F1FE498001F5C38 /* PHStickySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8836161F1FE498001F5C38 /* PHStickySlider.swift */; };
+		EE88361D1F20232A001F5C38 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EE88361C1F20232A001F5C38 /* README.md */; };
+		EE88361F1F202330001F5C38 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EE88361E1F202330001F5C38 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EE88360E1F1FE425001F5C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE8836101F1FE425001F5C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE8836161F1FE498001F5C38 /* PHStickySlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHStickySlider.swift; sourceTree = "<group>"; };
+		EE88361C1F20232A001F5C38 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE88361E1F202330001F5C38 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		EE8835F81F1FE425001F5C38 = {
 			isa = PBXGroup;
 			children = (
+				EE88361E1F202330001F5C38 /* LICENSE */,
+				EE88361C1F20232A001F5C38 /* README.md */,
 				EE8836031F1FE425001F5C38 /* stickySlider */,
 				EE8836021F1FE425001F5C38 /* Products */,
 			);
@@ -129,6 +135,7 @@
 			files = (
 				EE88360F1F1FE425001F5C38 /* LaunchScreen.storyboard in Resources */,
 				EE88360C1F1FE425001F5C38 /* Assets.xcassets in Resources */,
+				EE88361F1F202330001F5C38 /* LICENSE in Resources */,
 				EE88360A1F1FE425001F5C38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +149,7 @@
 			files = (
 				EE8836171F1FE498001F5C38 /* PHStickySlider.swift in Sources */,
 				EE8836071F1FE425001F5C38 /* ViewController.swift in Sources */,
+				EE88361D1F20232A001F5C38 /* README.md in Sources */,
 				EE8836051F1FE425001F5C38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +314,7 @@
 				EE8836151F1FE425001F5C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
