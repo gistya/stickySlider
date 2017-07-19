@@ -44,7 +44,6 @@ class PHStickySlider: UISlider {
         else {
             let now:Double = Date().timeIntervalSince1970
             let delta:Double = now - timeLastUpdated
-            print("delta: \(delta)")
             if(delta > 1.0) {
                 if #available(iOS 10.0, *) {
                     if(shouldVibrateOnLock == true && didVibrate == false) {
